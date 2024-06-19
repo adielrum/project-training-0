@@ -34,7 +34,7 @@ function HomePage() {
       />
       <h2 className="mb-2 text-[28px]">To: Nayla R. Rinjani 16023350</h2> {/* Added line */}
       <h1 className="mb-8 text-[32px]">
-        {response || 'mw jd pcr ak?'}
+        {response || 'mw ga jd pcr ak?'}
       </h1>
       <div className="mb-8">
         <Image 
@@ -50,14 +50,14 @@ function HomePage() {
           onClick={handleYesClick} 
           className="bg-green-500 text-white w-24 h-16 rounded-lg shadow-lg text-lg mr-5"
         >
-          Y
+          Ya
         </button>
         <button
           id="no-button"
           onMouseOver={handleNoHover}
           className="bg-red-500 text-white w-24 h-16 rounded-lg shadow-lg text-lg ml-5"
         >
-          G
+          Ga
         </button>
       </div>
     </div>
